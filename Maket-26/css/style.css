@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+}
+
+ /* container__bloc--top start */
+.container__block--top {
+    width: 98.8vw;
+    height: 90vh;
+    background: url(../img/Railroads_Sunrises_and.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    width: 88vw;
+    height: 10vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__logo {
+    display: flex;
+}
+
+.header__logo--img {
+    width: 30px;
+    height: 30px;
+    margin-top: 20px;
+    background: #fff;
+    border-radius: 50%;
+}
+
+.header__logo--mantairo {
+    font-size: 28px;
+    font-weight: bold;
+    padding-top: 20px;
+    margin-left: 1px;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+.header__menu {
+    color: white;
+    display: flex;
+    list-style: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 27px;
+}
+
+.header__menu--block {
+    width: 5vw;
+    height: 6vh;
+    margin-right: 30px;
+}
+
+.header__menu--block:last-child {
+    margin-right: 0;
+}
+
+.header__menu--block:hover {
+    color: #0af71f;
+    cursor: pointer;
+}
+
+nav {
+    width:88vw;
+    height: 75vh;
+    margin: 0 auto;
+}
+
+.nav__block--sample {
+    width: 50vw;
+    height: 20vh;
+    text-align: center;
+    margin: 90px auto;
+    line-height: 20vh;
+    font-size: 50px;
+    color: black;
+    letter-spacing: 2px;
+    background: rgba(205, 214, 219, 0.3);
+}
+
+
+.nav__block--text {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.nav__block--button {
+    width: 10vw;
+    height: 7vh;
+    margin: 10px auto;
+}
+
+.nav__block--button-1 {
+    width: 10vw;
+    height: 7vh;
+    border-radius: 20px;
+    border: 0;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.nav__block--button-1:hover {
+    background: #0af71f;
+    color: white;
+}
+
+
+.nav__block--small-btn {
+    width: 10vw;
+    height: 8vh;
+    margin: 15px auto;
+    display: flex;
+}
+
+.nav__block--small-btn-1 {
+    width: 1.4vw;
+    height: 2.6vh;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    margin: 5px auto;
+    cursor: pointer;
+}
+
+
+
+.nav__block--small-btn-1:hover {
+    background: #fff;
+}
+
+
+
+/* container__block--top end */
+
+
+
+
+
+/* container__bloc--bottom start */
+.container__block--bottom {
+    width: 98.8vw;
+    height: 80vh;
+    border: 2px solid black;
+}
+
+.container__block--about {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.container__block--about__companies {
+    font-size: 90px;
+    letter-spacing: 2px;
+    margin-top: 40px;
+}
+
+
+.container__block--about__text {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 55px;
+    letter-spacing: 1px;
+}
+
+
+.container__block--about__icon {
+    display: flex;
+    justify-content: center;
+}
+
+.container__block--box {
+    width: 30vw;
+    height: 48vh;
+    border: 1px dotted #445666;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.container__block--icon {
+    margin: 25px 0;
+}
+
+
+.block--icon {
+    width: 50px;
+}
+
+.container__block--com {
+    margin: 10px 0;
+    font-size: 20px
+}
+
+.container__block--text-1 {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+
+
+/* container__bloc--bottom end */
+
+@media screen and (min-width: 100px) and (max-width: 600px) {
+  .container__logo--top {
+      max-width: 100%;
+  }
+
+  .header__
+}

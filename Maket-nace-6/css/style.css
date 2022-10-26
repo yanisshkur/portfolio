@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+  /* header start */
+.header{
+    background-color: #F9432E;
+    max-height: 70px;
+    width: 100%;
+}
+
+.wrapper{
+    height: inherit;
+    width: 85%;
+    margin: 0 auto;
+}
+
+
+.header .logo{
+    position: relative;
+    top: 10px;
+    color: white;
+    font-size: 40px;
+    margin: 0;
+}
+
+.header ul{
+    display: flex;
+    list-style: none;
+    justify-content: right;
+}
+
+.header ul li a{
+    text-decoration: none;
+    position: relative;
+    top: -23px;
+    color: white;
+    font-size: 25px;
+    margin-left: 15px;
+    transition: 0.3s;
+    border-radius: 7px;
+    padding: 3px 4px;
+    cursor: pointer;
+}
+
+.header ul li a:hover{
+    background-color: black;
+}
+
+/* header end */
+
+/* menu start */
+  .menu{
+    height: 20vh;
+    background-color: #DF1A03;
+    color: #fff;
+    text-align: center;
+  }
+
+  .menu_h1{
+    padding: 25px;
+    font-size: 4em;
+    letter-spacing: 1px;
+  }
+
+  
+/* menu */
+
+/* container start */
+ .container{
+    background-color: black;
+    box-sizing: border-box;
+    margin: 0;
+    height: 40vh;
+ }  
+
+ 
+   
+ .smart{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+ }
+
+ .container_box{
+    display: flex;
+    align-items: center;
+ }
+
+ 
+
+ .box_h3{
+    color: white;
+    font-size: 22px;
+    padding: 10px 35%;
+    letter-spacing: 1px;
+    
+ }
+
+
+  .images{
+    width: 20%;
+    min-height: 20%;
+    padding: 0 30%;
+  }
+/* container end */
+
+
+
+/* content start */
+.content{
+    background-color: green;
+    height: 90vh;
+}
+
+.content h2{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    padding: 20px 0;
+}
+
+.content__box{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   grid-gap: 15px;
+   justify-items: center;
+}
+
+.content__box .box{
+    width: 80%;
+    height: 50vh;
+    background: white;
+    padding: 20px 20px;
+}
+
+ .image{
+    max-width: 100%;
+    min-height: 70%;
+    border-radius: 55%;
+    border: 3px solid green;
+}
+
+.content__box h3{
+    color: green;
+    text-align: center;
+    margin: 10px;
+}
+
+.content__box button{
+    padding: 5px 30px;
+    position: relative;
+    left: 10px;
+    color: white;
+    background: green;
+    border: none;
+    font-size: 20px;
+    border-radius: 5px;
+    transition: .4s;
+}
+
+button:hover{
+    background: #0af71f;
+    color: white;
+    cursor: pointer;
+}
+ 
+/* content end */
+
+.footer{
+    background-color: black;
+    height: 30px;
+}
+
+.footer p{
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+
+@media screen and (min-width: 400px) and (max-width: 500px) {
+       
+      .logo{
+        
+      }
+      
+      
+    .header ul{
+        display: block;
+        
+    }
+}

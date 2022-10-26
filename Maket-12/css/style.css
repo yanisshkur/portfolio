@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: whitesmoke;
+    width: 95vw;
+    height: 140vh;
+}
+
+.wrapper{
+    background-color: whitesmoke;
+    border: 2px dotted blue;
+    width: 80vw;
+    height: inherit;
+    margin: 20px auto;
+}
+
+.wrapper__h1{
+    margin: 10px 10px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.wrapper__pp{
+    margin: 10px 10px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.wrapper__ul{
+    margin: 10px 40px;
+}
+
+.wrapper__ul li{
+    padding: 5px 0;
+}
+
+table{
+    margin: 10px 10px;
+    border: 3px solid black;
+    width: 90%;
+    height: 40vh;
+    border-radius: 5px 5px 0 0;
+}
+
+th, td{
+    border: 2px solid black;
+}
+
+.table__th{
+    background-color: blue;
+    color: white;
+}
+
+.text__th{
+    text-align: left;
+    padding: 0 10px;
+}
+
+.color__td{
+    background-color: #8e8d8d;
+}
+
+.cool__td{
+    background-color: whitesmoke;
+}
+
+.cool__pp{
+    font-size: 22px;
+    margin: 10px 10px;
+}
+
+.content__form{
+    width: 40%;
+    height: 25%;
+    border: 1px solid #8e8d8d;
+    margin: 20px 10px;
+    background-color: #CBCCC9;
+}
+
+.form__form{
+    padding: 10px 10px;
+}
+
+.input__1{
+    margin: 5px 73px;
+    padding: 5px 20px;
+}
+
+.input__2{
+    margin: 0 70px;
+    padding: 5px 20px;
+}
+
+.section__1{
+    margin: 20px 4px;
+    padding: 5px 31px;
+    border: 0;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.section__1:hover{
+    background: #00a9e1;
+    color: white;
+}
+
+.input__push{
+    padding: 10px;
+}
+
+.submit{
+    margin: 10px;
+}
+
+.input__submit{
+    padding: 5px 50px
+}
+
+
+
+

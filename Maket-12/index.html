@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Списки таблиц, иформы.</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+<body>
+   <div class="wrapper">
+       <h1 class="wrapper__h1">Поетическое чтение</h1>
+       <p class="wrapper__pp">Мы проведем ряд встреч и симпозиумов в течение года.</p>
+       <p class="wrapper__pp">Вход на следующие мероприятия для участников свободный:</p>
+       <ul  class="wrapper__ul">
+           <li>Поэтическая перспектива</li>
+           <li>Вечер поэзии в честь Д.Р. Пушкина А.С</li>
+           <li>Поэзия и поэты серебреного века</li>
+       </ul>
+
+       <table>
+           <tr>
+               <th class="table__th"></th>
+               <th class="table__th">Москва</th>
+               <th class="table__th">Санкт-Петербург</th>
+               <th class="table__th">Екатеринбург</th>
+           </tr>
+           <tr>
+               <th class="text__th  color__td">Поэтическая перспектива</th>
+               <td class="color__td">Сб, 4 февраля 2012 <br> 11:00-14:00</td>
+               <td class="color__td">Сб, 3 марта 2012 <br> 11:00-14:00</td>
+               <td class="color__td">Сб, 17 марта 2012 <br> 11:00-14:00</td>
+           </tr>
+           <tr>
+               <th class="text__th cool__td">Вечер поэзии в честь Д.Р. Пушкина А.С</th>
+               <td class="cool__td">Сб, 7 апреля 2012 <br> 11:00-13:00</td>
+               <td class="cool__td">Сб, 5 мая 2012 <br> 11:00-13:00</td>
+               <td class="cool__td">Сб, 19 мая 2012 <br> 11:00-13:00</td>
+           </tr>
+           <tr>
+               <th class="text__th color__td">Поэзия и поэты серебренова века</th>
+               <td class="color__td">Сб, 9 июня 2012 <br> 11:00-13:00</td>
+               <td class="color__td">Сб, 7 июня 2012 <br> 11:00-13:00</td>
+               <td class="color__td">Сб, 21 июня 2012 <br> 11:00-13:00</td>
+           </tr>
+           <tr>
+               <th class="text__th cool__td">Поэты 21 века</th>
+               <td class="cool__td">Сб, 4 августа 2012 <br> 11:00-16:00</td>
+               <td class="cool__td">Сб, 8 сентяборь 2012 <br> 11:00-16:00</td>
+               <td class="cool__td">Сб, 15 сунтяборь 2012 <br> 11:00-16:00</td>
+           </tr>
+       </table>
+
+
+
+
+       <div class="content__form">
+           <p  class="cool__pp"><i>Зарегестрирутесь</i></p>
+           <form class="form__form">
+                 <p>
+                     <label> Ваше имя:</label>
+                     <input  class="input__1" type="text" name="name"><br>
+                     <label> Ваш Email:</label>
+                     <input class="input__2" type="email">
+                 </p>
+
+                <p>
+                    <label>Ближайший центор:</label>
+                    <select class="section__1">
+                        <option>Москва</option>
+                        <option>Санкт-Петербург</option>
+                        <option>Екатеринбург</option>
+                    </select>
+                </p>
+               <p>
+                   <span class="title">Являетесь участником?</span>
+                   <label  class="input__push"><input  type="radio" name="member" value="yes">Да</label>
+                   <label class="input__push"><input  type="radio" name="member" value="no">Нет</label>
+               </p>
+
+               <div class="submit"><input type="submit" value="Регистрация" class="input__submit"></div>
+           </form>
+       </div>
+   </div>
+</body>
+</html>

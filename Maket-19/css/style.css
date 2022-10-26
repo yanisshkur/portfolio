@@ -1,0 +1,172 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+
+ header {
+     width: 95vw;
+     height: 25vh;
+     background-color: #05F5B7;
+     margin: 0 auto;
+ }
+
+
+ .header__logo__name__search {
+     display: flex;
+     justify-content: space-between;
+     padding-top: 40px;
+ }
+
+ .header__logo {
+     width: 10vw;
+     height: 10vh;
+     border: 2px solid black;
+     margin-left: 20px;
+     padding-top: 20px;
+     text-align: center;
+     color: white;
+     font-size: 20px;
+     font-weight: bold;
+     background-color: #0543F5;
+ }
+
+
+ .header__name {
+     width: 40vw;
+     height: 7vh;
+     border: 2px solid black;
+     text-align: center;
+     margin-top: 10px;
+     padding-top: 10px;
+     font-size: 20px;
+     font-weight: bold;
+     color: white;
+     background-color: #05F575;
+ }
+
+
+ .header__search {
+     width: 20vw;
+     height: 7vh;
+     border: 2px solid black;
+     margin-top: 10px;
+     margin-right: 20px;
+     text-align: center;
+     padding-top: 10px;
+     font-size: 20px;
+     font-weight: bold;
+     color: white;
+     background-color: #05F575;
+ }
+
+ main {
+     width: 95vw;
+     height: 73vh;
+     margin: 0 auto;
+ }
+
+ .main__content {
+     display: flex;
+     justify-content: center;
+ }
+
+ .main__left {
+     width: 25vw;
+     height: 73vh;
+     margin-right: 15px;
+ }
+
+ .main__navigation {
+     width: 25vw;
+     height: 40vh;
+     border: 2px solid #8e8d8d;
+     background-color: #0585F5;
+     margin-top: 10px;
+ }
+
+ .text__navigation {
+     text-align: center;
+     font-size: 20px;
+     font-weight: bold;
+     color: white;
+     margin: 10px 0;
+ }
+
+ .navigation__content {
+     width: 15vw;
+     height: 5vh;
+     border: 2px solid black;
+     margin: 5px auto;
+     background-color: #2b542c;
+
+ }
+
+ .navigation__news {
+     width: 25vw;
+     height: 27vh;
+     border: 2px solid #8e8d8d;
+     text-align: center;
+     font-size: 20px;
+     font-weight: bold;
+     color: white;
+     background-color: #F5BA05;
+     margin-top: 20px;
+     padding-top: 10px;
+ }
+
+
+
+ .main__right {
+     width: 68vw;
+     height: 70vh;
+     border: 2px solid black;
+     background-color: #81c644;
+     margin-left: 10px;
+     margin-top: 10px;
+ }
+
+ .main__right__drew {
+     width: 50vw;
+     height: 26vh;
+     border: 2px solid black;
+     background-color: #1e7e34;
+     margin: 10px auto;
+ }
+
+ .right__drew {
+     text-align: center;
+     padding-top: 10px;
+     font-size: 20px;
+     font-weight: bold;
+     color: white;
+ }
+
+ .right__registration {
+     text-align: center;
+     width: 20vw;
+     height: 5vh;
+     border: 2px solid black;
+     font-size: 20px;
+     font-weight: bold;
+     color: white;
+     padding-top: 1px;
+     margin: 20px auto;
+     background-color: #BA05F5;
+ }
+
+
+ .right__information {
+     width: 60vw;
+     height: 38vh;
+     border: 2px solid black;
+     background-color: #0c5460;
+     margin: 30px auto;
+     text-align: center;
+     font-size: 20px;
+     font-weight: bold;
+     color: #fff;
+     padding-top: 20px;
+
+ }

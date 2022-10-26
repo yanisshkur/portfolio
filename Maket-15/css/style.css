@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    border: 3px dotted black;
+    width: 99vw;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 8px 8px;
+    padding: 30px 0;
+    background-color: #82B5F2;
+    color: white;
+}
+
+.header__text-1 {
+    padding: 0 10px;
+}
+
+.header__h1 {
+    font-size: 45px;
+}
+
+.header__p {
+    margin-left: 105px;
+    padding: 5px 0;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.header__text-2 {
+   text-align: center; 
+}
+
+.header__h2 {
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+
+nav {
+    width: 99vw;
+    height: 10vh;
+    margin: 0 auto;
+}
+
+
+.nav__ul {
+    display: flex;
+    list-style: none;
+    margin: 0 8px;
+} 
+
+.nav__li {
+    border: 2px solid black;
+    padding: 15px 55px;
+    background: #383738;
+    color: #fff;
+    font-size: 16px;
+}
+
+.nav__li-1 {
+    border: 2px solid black;
+    padding: 15px 65px;
+    background: #383738;
+    color: #fff;
+    font-size: 16px;
+}
+
+.nav__li-2 {
+    border: 2px solid black;
+    padding: 15px 230px;
+    background: #383738;
+    color: #fff;
+    font-size: 16px;
+}
+
+.nav__li:hover, .nav__li-1:hover, .nav__li-2:hover {
+    color: #3956F2;
+}
+
+main {
+    width: 97.5vw;
+    height: 70vh;
+    margin: 0 8px;
+    background: #383738;
+}
+
+.main__content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text__left {
+    width: 55vw;
+    height: 65vh;
+    background: #4C4B4D
+}
+
+
+.left__h2 {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    margin: 10px 0;
+}
+
+.left__span {
+    color: #82B5F2;
+}
+
+.left__text-p {
+    padding: 4px;
+}
+
+
+
+.left__p {
+  font-size: 19px;
+  color: white;
+  margin: 10px 0;
+}
+
+
+
+
+
+
+.text__right {
+    background: #383738;
+    width: 30vw;
+    height: 70vh;
+    margin-right: 4px;
+    text-align: center;
+}
+
+.right__text-div {
+    border: 3px solid black;
+    color: white;
+    margin: 10px 5px;
+
+}
+
+.right-p {
+    padding: 10px 0;
+    letter-spacing: 1px;
+    border: 2px solid black;
+    width: 25vw;
+    margin: 5px auto;
+    background: #28222E;
+}
+
+.right__span {
+    color: red;
+}
+
+.right__p {
+    margin: 10px 0;
+}

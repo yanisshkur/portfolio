@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 99vw;
+    height: 99vh;
+    margin: 0 auto;
+}
+
+.wrapper {
+    width: 90vw;
+    height: 99vh;
+    border: 2px solid black;
+    margin: 0 auto;
+
+}
+
+header {
+    width: 90vw;
+    height: 15vh;
+    border: 2px solid black;
+}
+
+.header__bloc {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 60px;
+}
+
+.header__bloc-menu {
+    width: 15vw;
+    height: 7vh;
+    border: 2px solid black;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px 10px 0 0;
+}
+
+.header__bloc-menu:hover {
+    background-color: black;
+    color: #fff;
+}
+
+nav {
+    width: 90vw;
+    height: 22vh;
+    border: 2px solid black;
+    margin: 0 auto;
+}
+
+.nav__bloc {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 0;
+}
+
+.nav__bloc-logo {
+    width: 18vw;
+    height: 13vh;
+    border: 2px solid black;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.nav__bloc-information {
+    width: 19vw;
+    height: 13vh;
+    border: 2px solid black;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+main {
+    width: 90vw;
+    height: 52vh;
+    border: 2px solid black;
+    margin: 0 auto;
+}
+
+.main__bloc {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+.main__bloc-banner {
+    width: 45vw;
+    height: 46vh;
+    border: 2px solid black;
+    border-radius: 30px;
+}
+
+.main__bloc-banner-1 {
+    width: 30vw;
+    height: 10vh;
+    border: 2px solid black;
+    margin: 20px auto;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+.main__container-bloc {
+    width: 37vw;
+    height: 49vh;
+    border: 2px solid black;
+}
+
+
+.main__container__bloc-basket {
+    width: 15vw;
+    height: 8vh;
+    border: 2px solid black;
+    border-radius: 100px;
+    margin: 8px auto;
+    text-align: center;
+    padding-top: 13px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.main__container__bloc-catalog {
+    width: 15vw;
+    height: 6vh;
+    border: 2px solid black;
+    margin: 8px auto;
+    border-radius: 10px 10px 0 0;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+footer {
+    width: 90vw;
+    height: 10vh;
+    border: 2px solid black;
+}
+
+.footer__basement {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}

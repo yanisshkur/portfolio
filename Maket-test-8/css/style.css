@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ /* header */
+ .header{
+     background-color: #BAB6B5;
+     height: 70vh;
+     width: 100%;
+ }
+
+ .wrapper{
+     width: 85%;
+     height: inherit;
+     margin: 0 auto;
+ }
+
+ .active{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 20px;
+ }
+
+ .logo{
+     font-weight: bold;
+     font-size: 30px;
+ }
+
+ .active ul{
+     display: flex;
+     list-style: none;
+
+ }
+
+ .active ul li a{
+     margin-right: 40px;
+     color: #000;
+     text-decoration: none;
+     font-weight: bold;
+     font-size: 23px;
+     cursor: pointer;
+ }
+
+ .active ul li a:hover{
+     color: #00ff00;
+ }
+ /* header end */
+
+
+ /* menu */
+ .menu{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 30px;
+ }
+
+  .left h1{
+      font-size: 40px;
+      font-weight: bold;
+ }
+
+  .left p{
+      font-size: 24px;
+      letter-spacing: 2px;
+  }
+
+  .right{
+      background-color: #919290;
+      border: 2px solid #919290;
+      width: 50%;
+      height: 50vh;
+  }
+
+  .right h2{
+      position: absolute;
+      top: 30%;
+      left: 60%;
+  }
+/* menu end */
+
+/* container */
+  .container{
+      height: 100vh;
+      background-color: #fff;
+      padding: 40px;
+  }
+
+  .page{
+      display: flex;
+      justify-content: right;
+      padding: 40px;
+  }
+
+  .page .color{
+      width: 20px;
+      height: 20px;
+      background-color: #8e8d8d;
+      margin: 0 20px;
+      border-radius: 50%;
+  }
+
+  /* container-box */
+   .container__boxes{
+       display: grid;
+       grid-template-columns: 300px 300px 300px;
+       grid-template-rows: 200px 200px 60px;
+       grid-column-gap: 30px;
+       grid-row-gap: 50px;
+
+   }
+
+   .box{
+       background-color: #8e8d8d;
+       border: 1px solid black;
+   }
+
+
+   .box p{
+       padding: 20px;
+       font-weight: bold;
+   }
+  /* container-box-end */
+
+/* container end */
+
+/* footer */
+.footer{
+    background-color: #8e8d8d;
+    height: 10vh;
+}
+
+.footer__active{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.footer__active .logo{
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.footer__active ul{
+    display: flex;
+    list-style: none;
+}
+
+
+.footer__active ul li a{
+    margin-right: 40px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+.footer__active ul li a:hover{
+    color: #00ff00;
+}
+/* footer end */
+
+

@@ -1,0 +1,22 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container__box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container__form{
+    padding: 50px;
+}
+
+.container__input{
+    width: 784px;
+    height: 54px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+}

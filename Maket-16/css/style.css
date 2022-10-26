@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #2b542c;
+    padding-top: 5px;
+}
+
+header {
+    width: 80vw;
+    height: 16vh;
+    background-color: #697B16;
+    margin: 0 auto;
+}
+
+.header__logo {
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    color: #fff;
+    padding-top: 35px;
+}
+
+main {
+    width: 100vw;
+    height: 15vh;
+    background-color: #697B16;
+    margin: 15px 0;
+}
+
+.main__menu {
+    width: 80vw;
+    height: inherit;
+    margin: 0 auto;
+}
+
+.menu__ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding-top: 50px;
+}
+
+.menu__li {
+    color: white;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.menu__li:hover {
+    color: #00a9e1;
+}
+
+nav {
+    width: 80vw;
+    height: 64vh;
+    background-color: #fff;
+    margin: 0 auto;
+}
+
+.nav__simple {
+    text-align: center;
+    padding: 10px 0;
+    font-size: 29px;
+    color: #697B16;
+}
+
+.content__box {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+}
+
+.box {
+    width: 25vw;
+    height: 25vh;
+    background-color: #697B16;
+
+}
+
+.square {
+    text-align: center;
+    padding-top: 70px;
+    color: white;
+    font-size: 30px;
+}
+
+.line__div {
+    width: 90%;
+    margin: 0 auto;
+    border: 2px dotted #2b542c;
+}
+
+.lorem__h2 {
+    margin: 10px 13px;
+    color: #697B16;;
+}
+
+.text {
+    margin: 30px 14px;
+}
+
+.text__lorem {
+    font-size: 19px;
+    font-weight: bold;
+}
+

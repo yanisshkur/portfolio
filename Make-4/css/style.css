@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+}
+
+.wrapper{
+    display:grid;
+    grid-template-columns: 315px 315px 315px 315px;
+    grid-auto-rows: minmax( 115px, auto);
+}
+
+ .wrapper .box{
+    background-color: #e8f4ff;
+    margin: 20px;
+    display: flex;
+
+}
+
+ .box:hover{
+    cursor: pointer;
+
+}
+
+.wrapper .box p{
+    font-size: 15px;
+
+}
+
+.wrapper .box .items{
+    position: relative;
+    top: 65px;
+    right: 65px;
+}
+
+
